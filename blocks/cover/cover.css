@@ -1,6 +1,13 @@
 .cover {
-    width: 1184px;
+    max-width: 1184px;
     height: 740px;
     margin: 0 auto;
     background-image: url(../../../russian-travel/images/__background.png);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        height: 640px;
+    }
 }

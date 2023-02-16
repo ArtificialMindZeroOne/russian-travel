@@ -1,3 +1,10 @@
 .lead__main-illustration {
     margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__main-illustration {
+        width: 928px;
+        height: 580px;
+    }
+}
