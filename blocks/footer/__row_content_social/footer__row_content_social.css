@@ -1,0 +1,8 @@
+.footer__row_content_social {
+    width: 186px;
+    height: 262px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
