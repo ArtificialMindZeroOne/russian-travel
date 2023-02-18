@@ -5,3 +5,10 @@
     font-weight: 400;   
     margin-top: 0; 
 }
+
+@media screen and (max-width: 320px) {
+    .places__url-heading {
+        font-size: 12px;
+        line-height: 12px;
+    }
+}

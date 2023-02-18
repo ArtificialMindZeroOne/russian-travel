@@ -5,7 +5,19 @@
     font-weight: 400;  
     max-width: 360px;
     text-align: center;
-    margin: 0 auto; 
+    margin: 0 auto 245px;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        margin: 0 auto 195px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        margin: 0 auto 115px;
+    }
 }
 
 @media screen and (max-width: 320px) {

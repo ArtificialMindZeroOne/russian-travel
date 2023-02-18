@@ -3,30 +3,15 @@
     font-size: 96px;
     line-height: 100px;
     font-weight: 900;
-    width: 720px;
-    height: 200px;
     text-align: center;
-    margin: 0 132px 32px;
+    margin: 0 auto 32px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 720px) {
     .lead__title {
-        margin: 0 104px 32px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .lead__title {
-        margin: 0 24px 32px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__title {
-        margin: 0 16px 16px;
+        margin: 0 auto 16px;
         font-size: 40px;
         line-height: 44px;
         width: 288px;
-        height: 88px;
     }
 }
