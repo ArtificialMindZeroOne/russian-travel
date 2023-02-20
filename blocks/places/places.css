@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 500px) {
     .places {
-        max-width: auto;
+        max-width: 500px;
     }
 }
 
