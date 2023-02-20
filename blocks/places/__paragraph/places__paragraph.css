@@ -7,10 +7,17 @@
     margin: 0 auto 26px;
 }
 
+@media screen and (max-width: 1024px) {
+    .places__paragraph {
+        margin-bottom: 27px;
+    }
+}   
+
 @media screen and (max-width: 768px) {
     .places__paragraph {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 26.08px;
+        margin: 0 auto 25px;
     }
 }   
 
@@ -19,3 +26,7 @@
         margin: 0 16px 25px;
     }
 }   
+
+.places__paragraph:last-of-type {
+    margin-bottom: 0;
+}
