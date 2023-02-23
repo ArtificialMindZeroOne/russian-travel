@@ -29,9 +29,14 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
     .places__title {
         margin: 0 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__title {
         max-width: 288px;
     }
 }
